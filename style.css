@@ -1,0 +1,15 @@
+#inscription{display: flex;}
+#inscription #form2{position: relative;right: 280px;}
+#principle{display: flex;margin-left: 200px}
+#form1,#form2,#principle,.gallerie{animation-name: fadein;animation-duration: 7s;animation-timing-function: ease-out;}
+div #boutton:hover{color: azure;width: 100px;height:40;font-size:larger;}
+@keyframes fadein {from{opacity: 0;translate:translateX(2Opx) ;}to {opacity: 1;translate:translateX(Opx) ;}}
+.gallerie{display: flex;padding-bottom: 14px;}
+.gallerie .card{margin-right: 15PX;border-radius: 9PX;padding-top:40px ;}
+.icons{position: relative;bottom: 200px;right: 60px;}
+.icons i{margin-right: 20px;font-size:25px;}
+.footicons{margin-left: 550px;padding-top: 30px;}
+.footicons i{margin-right: 15px;font-size: 20px;}
+.footnav{margin-left: 480px;margin-top: 60px;}
+.footnav a{margin-right: 10px;}
+*{margin: 0%;padding: 0%;}
