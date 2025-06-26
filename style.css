@@ -1,7 +1,7 @@
 #inscription{display: flex;}
 #inscription #form2{position: relative;right: 280px;}
 #principle{display: flex;margin-left: 200px}
-#form1,#form2,#principle,.gallerie{animation-name: fadein;animation-duration: 0.01s;animation-timing-function: ease-out;}
+#form1,#form2,#principle,.gallerie{animation-name: fadein;animation-duration: 0.5s;animation-timing-function: ease-out;}
 @keyframes fadein {from{opacity: 0;transform:translateX(20px) ;}to {opacity: 1;transform:translateX(0px) ;}}
 div #boutton:hover{color: azure;width: 100px;height:40;font-size:larger;}
 .gallerie{display: flex;padding-bottom: 14px;}
